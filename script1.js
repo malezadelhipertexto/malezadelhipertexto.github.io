@@ -1,9 +1,10 @@
 
 
 var videos = [
-  'video/desenfoca.mp4',
-  'video/soyrio.mp4',
-  //'https://www.youtube.com/embed/VIDEO_ID_2',
+
+//'https://i.imgur.com/fG0bcJO.mp4',
+  'https://www.i.imgur.com/embed/66qZhqD.mp4',
+ // 'https://www.youtube.com/embed/VIDEO_ID_2',
   // Agrega más URLs de videos de YouTube según sea necesario
 ];
  // <video src="video/secuencia2.mp4" muted loop autoplay></video>

@@ -8,32 +8,24 @@
 	box-sizing: border-box;
 	margin:0;
 	padding: 0;
-  
- 
 }
 
 
-
 body{
-  background-color: #ffffff; 
-  color: black;
+ /* background-color: #ffffff; */
+ background-image: url(img/logo/fondominimal.jpg);
+ border-image: repeat;
+  color: #516e34;
 	font-size:100%;
 	line-height: 1.3
-  
-
-
-
-  
 }
 .container {
   max-width: max-content;
 }
 
 
-
 .logo {
   width: 300px;
-
 }
 .logoaliados
 {
@@ -85,7 +77,6 @@ opacity: 0.8;
   font-weight: 400;
   max-width: 700px;
 	text-align: right;
-  
 }
 
 .text1
@@ -147,11 +138,6 @@ transition: 0.5s;
 transform: scale(0.5) translateY(-15px);
 }
 
-
-
-
-
-
 /*Navegador*/
 
 
@@ -172,7 +158,7 @@ transform: scale(0.5) translateY(-15px);
   }
   
   .nav-link:link{color: #516e34;}
-  .nav-link:visited{color: #7ca751;}
+  .nav-link:visited{color: #516e34;}
   .nav-link:hover{color:#D7C400;}
   
   .dropdown-item:link{color:#7ca751;}
@@ -194,9 +180,6 @@ transform: scale(0.5) translateY(-15px);
   .activo{
     background-color: #2e2e2b;
   }
-
-
-
 .parallas, .main {margin:0 auto}
 
 .parallax{
@@ -232,35 +215,31 @@ position: relative;
 visibility: inherit;
 }
 
-.img-uno{background-image: url("img/parallax/olor2.png")}
+.img-uno{background-image: url("https://i.imgur.com/Q37Xlqk.png")}
 
-.img-dos{background-image: url("img/parallax/plantascollage.jpg")}
-.img-cuatro{background-image: url("img/parallax/señoracolores.jpg")}
-.img-tres{background-image: url("video/aromas2corte.gif")}
+.img-dos{background-image: url("https://i.imgur.com/XehJ2IU.jpg")}
+/*.img-cuatro{background-image: url("img/parallax/señoracolores.jpg")}*/
+.img-tres{background-image: url("https://i.imgur.com/EWfgXt3.gif")}
 
 .texto{
 	padding:5%;
 	width: 90%;
   text-align: justify;
-
-
 }
 h2
 
 {
-  color: #000;
-	background-color: #fff;
+  color: #657334;
+	background-color: #F9F8F6;
 }
+
 
 mark { 
  
   font-style: oblique;
 	text-align: right;
   background-color: #7ca751;
-  
 }
-
-
 
 
 /*galeria*/
@@ -279,7 +258,6 @@ mark {
 
 
 
-
 /* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
 .thumb 
 figure img {
@@ -295,7 +273,7 @@ figure:hover img {
 }
 
 .form{
-  background-image: url(img/form/fondo.gif);
+  background-image: url(https://i.imgur.com/pCvRgpk.gif);
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -307,13 +285,9 @@ figure:hover img {
  }
 
  .boton{
-  
-  
   color: #ffffff;
-  
   font-size: 200%;
   background-image: linear-gradient(to right, rgb(153,64,218), rgb(218, 154, 178));
-  
  }
 
  .colortxt
@@ -322,16 +296,10 @@ figure:hover img {
   text-align: right;
   position: relative;
   z-index: 10;
-  
-
   margin: 20px 0;
-  
   max-width: 700px;
-  
   justify-content: center; 
   background-color: #ffffff;
-	
-  
 }
 
 
@@ -344,9 +312,7 @@ figure:hover img {
   justify-content: center; 
   background-color: #eafadb;
   opacity: value;
-  
 }
-
 
   @media (min-width: 992px) {
       .contenedor{
@@ -357,8 +323,6 @@ figure:hover img {
           align-items: center;
       }
   }
-
-
 .btn2{
   color: #e0e3e5;
   background-color: #2e2e2b;
@@ -385,7 +349,6 @@ button:disabled{
   opacity: 0.7;
 }
 
-
 #j1p2, #j1p3, #j2p2, #j2p3{
   display: none;
 }
@@ -394,9 +357,6 @@ button:disabled{
   padding: 3em;
   border: solid 2px #baa14a;
 }
-
-
-
 
  /*footer*/
 
@@ -461,16 +421,13 @@ ol, ul {
 .footer-top {
   
   padding:50px 0 50px;
-  background: linear-gradient(to bottom, #ffc000 -66%, #9940da 130%);
-  
- 
+  background: #d9cb04;
 }
 .footer-top h4 {
   font-size: 19px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 
 .address1 li {
   list-style: none;
@@ -504,11 +461,9 @@ ul.address1 i.fa-envelope {
 footer ul.social-icon {
   float: left;
 }
-
-
 .footer-bottom {
-  background: #A745ED;
-  padding: 10px 0px;
+  background: linear-gradient(to bottom, #5c6d3f -66%, #d9cb04 130%);
+  padding: 20px 0px;
 }
 .footer-bottom ul li {
   display: inline;
@@ -524,7 +479,7 @@ footer ul.social-icon {
 }
 
 .footer-bottom ul li:last-child {
-  margin-right: 0;
+  margin-right: 20px;
 }
 .copyright {
   font-size: 18px;
@@ -533,22 +488,13 @@ footer ul.social-icon {
 h6 {
   text-align:start;
   color: #FFFFFF;
-  
   font-size: 75%;
-
-
 }
-
 
 .exptxt
  {
-  
   font-size: 150%;
   text-align: justify;
-
-
-  
-  
 }
 
 
@@ -566,7 +512,6 @@ h3 {
 
 */
 
-
 /*Botones galerÃ­a*/
 
 .btn1{
@@ -574,26 +519,61 @@ h3 {
   font-weight: 300;
   font-size: 25px;
   font-style: italic;
-  color: #baa14a;;
+  color: #baa14a;
   cursor: pointer;
-  
 }
 
 .btn1:hover{
-  opacity: 0.6;
-}
+  opacity: 0.6;}
 
 .centrar{
   display: flex;
   justify-content: center;
 }
-/*
-.video_div{
-  margin-left: -210px;
+
+
+
+.titulo {
+  color:black;
+  text-transform: uppercase;
+  font-size:60px;
+  font-weight:bold;
+  font-family:"uts";
+ line-height:45px; 
 }
-@media (max-width:1199px){
-  .video_div{
-    margin-left: -270px;
-  } 
+
+
+.siema {
+  width: 100%;
+  overflow: hidden;
 }
-  */
+.siema div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siema video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* O usar cover si prefieres que la imagen cubra todo el área */
+}
+
+.siema image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* O usar cover si prefieres que la imagen cubra todo el área */
+}
+
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pdf-container object {
+  border: 1px solid #ccc; /* Opcional: Añadir borde para mejor visualización */
+}
+.textpdf {
+  text-align: center;
+  margin: 20px 0;
+}

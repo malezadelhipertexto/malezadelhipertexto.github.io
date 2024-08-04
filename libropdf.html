@@ -96,103 +96,17 @@
   <div class="container">
       <div class="row">
 
-                         
-          <div class="col-12 p-lg-5"> <!-- CONTENIDO principal-->
+          <!-- CONTENIDO principal-->           
+          <div class="col-12 p-lg-5">
 
               <article class="m-5"><!-- Juego-->
            
-            
-
-                  <h2 class="color3 fw-bold fs-1 pb-3"> ¿Recuerdas los usos de las plantas? </h2>  
+                      <h1>Revista didáctica</h1>
                   
-                      <div id="j1p1"> <!-- Pantalla inicial-->
-
-                          <div class="row">
-                              <div class="col-12 col-lg-6">
-                              
-
-
-                                <h2>Propósito del juego </h2>
-                                  
-                                  <p class="mb-5"> 
-                                    Diviértete y aprende recordando los usos de las plantas medicinales y aromáticas. En este sitio web, te contamos sobre los conocimientos y saberes obtenidos a través del encuentro e intercambio con huerteras y huerteros. Dialogamos sobre los usos y maneras de transformar estas plantas para integrarlas en la vida cotidiana, transmitiendo la memoria y el saber ancestral como patrimonio cultural intangible.</p>
-                                      <p> Visualizarás una imagen y tres opciones de respuesta. Deberás elegir una de las opciones. Recuerda, solo una es correcta.</p>
-                                  <h2 class="color3 fw-bold">Pista</h2>
-  
-                                  <p class="mb-5"> 
-                                    Puedes usar la pista para revelar una de las dos respuestas incorrectas. Solo puedes usarla una vez, pero su uso te quitará puntaje. </p>
-                              </div>
-                              <div class=" col-12 col-lg-6 ps-lg-5">
-                                  <h2 class="color3 fw-bold">Puntos</h2>
-
-                                 
-                                      <ul>
-                                          <li> <span class="color3 fw-bold m-2">Respuesta correcta SIN pista</span>:+2 puntos</li>
-                                          <li> <span class="color3 fw-bold m-2">Respuesta correcta CON pista</span>: +1 punto </li>
-                                          <li> <span class="color3 fw-bold m-2">Respuesta incorrecta</span>: +0 puntos</li>
-                                      </ul>                  
-                                  
-                              </div>
-
-                              <div class="p-3 centrar">
-                                  <button class="p-3 mb-5 bg3 color1 opacidad" onclick="iniciarJuego1();">
-                                   
-                                    <p class="btn3">¡Inicia el Juego!</a></p> 
-                                  </button>
-                              </div>
-                          </div>
-                       
-                          
-
-                          
-                      </div>
-
-                      <div id="j1p2" class="text-center"> <!-- Pantalla juego-->
-
-                          <div class="contenedor"> 
-                              
-                                  <div class="pregunta">
-                                      <p class="fs-3">
-                                          ¿Cuál es su uso en el saber popular?
-                                      </p>
-
-                                  </div>
-                                  <img src="img/card/lavanda.png" class="img-fluid" id="j1img" alt="lavanda">
-                                  <button type="button" id="opc1" class="btn2" onclick="eligeOpcion('opc1');">Opción 1</button>
-                                  <button type="button" id="opc2" class="btn2" onclick="eligeOpcion('opc2');">Opción 2</button>
-                                  <button type="button" id="opc3" class="btn2" onclick="eligeOpcion('opc3');">Opción 3</button>
-
-                                                                      
-                                  <div>
-                                      <button id="siguiente1" class="m-3 p-3 bg3 color1 opacidad" disabled onclick="cambiarPregunta();">SIGUIENTE</button>
-                                      <button id="pista1" class="m-3 p-3 bg3 color1 opacidad" onclick="usarPista();">PISTA</button>
-                                  </div>
-
-                                  
-                              
-                          </div>
-
-                      </div>
-
-                      <div id="j1p3" class="text-center"> <!-- Pantalla final-->
-
-                          <div class="contenedor"> 
-                              
-                              <div class="puntaje">
-                                  <p id="puntaje1" class="fw-bold">                                         
-                                  </p>
-                                  <p id="msjefinal1" class="mt-3">
-
-                                  </p>
-                              </div>
-
-                              <div class="centrar mt-5">
-                                  <button id="reinicio1" class="m-3 p-3 bg3 color1 opacidad" onclick="iniciarJuego1();">VOLVER A JUGAR</button> 
-                              </div>
-
-                          </div>
-
-                      </div>
+                   
+                      <object data="libro/contenido.pdf" type="application/pdf" width="600" height="400">
+                          <p>Tu navegador no soporta la visualización de PDFs. Puedes descargar el archivo <a href="libro/contenido.pdf">aquí</a>.</p>
+                      </object>
                   
                       
               </article>
@@ -200,10 +114,18 @@
           </div>
          
       </div>
+      
+       
+      <div class="text">
+        <a href="libro/contenido.pdf">GUARDAR PC</a>
+        
+      </div>
+      <div class="text">
+        
+        <a href="index.html"> REGRESAR</a>
+      </div>
   </div>
-  <div class="text">
-    <a href="index.html">REGRESAR</a>
-  </div>
+ 
   
 
 </main>
@@ -281,7 +203,6 @@
  
  
 </footer>
-
 
   <script src="juego.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
